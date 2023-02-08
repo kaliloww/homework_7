@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>30</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 20pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="text">
+     <string>DoDo Pizza</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="order">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="text">
+     <string>Заказать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="admin">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>120</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="text">
+     <string>Админ панель</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="name">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>210</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 8pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Имя</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="surname">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>260</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 8pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Фамилия</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="number">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>310</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 8pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Номер телефонна</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="address">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>360</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 8pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Адрес</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>460</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="text">
+     <string>Заказать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="menu">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>120</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="text">
+     <string>Меню</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="food">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>410</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 8pt &quot;Rockwell Extra Bold&quot;;
+background-color: orange ;
+border-radius : 20px ;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Еда</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
